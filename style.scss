@@ -1,0 +1,33 @@
+$red-color: red;
+
+#parent {
+    text-align: center;
+}
+
+#calendar {
+    display: inline-block;
+
+    td, th {
+        padding: 10px;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    .nav, .info {
+        text-align: center;
+    }
+
+    a {
+        color: blue;
+        font-size: 25px;
+        text-decoration: none;
+
+        &:hover {
+            color: $red-color;
+        }
+    }
+
+    .active {
+        color: $red-color;
+    }
+}
